@@ -307,13 +307,13 @@ export function executeQuery(componentId, executeWatchList = false, mustExecuteM
 				const currentQuery = {
 					query: { ...queryObj },
 					...options,
-					...queryOptions[component],
+					...queryOptions[componentId],
 				};
 
 				const queryToLog = {
 					query: { ...queryObj },
 					...options,
-					...queryOptions[component],
+					...queryOptions[componentId],
 				};
 
 				const oldQuery = queryLog[component];
