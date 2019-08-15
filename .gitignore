@@ -5,5 +5,4 @@ npm-debug.*
 **/.DS_Store
 *.log
 logs
-lib
 coverage
